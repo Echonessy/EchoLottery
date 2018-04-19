@@ -43,7 +43,10 @@ function ChoiceEvt() {
     $('.NoChoice').on('click',function () {
         var Id = $(this).attr('data-id');
         var Awards = $(this).attr('data-Awards');
-        $(this).css('animation-play-state','paused');
-        alert('奖项'+Awards)
+        $(this).removeClass().addClass('Choice');
+        $(this).find('img').attr('src','static/img/o.png');
+        $(this).find('.UserName').html('me');
+        $(this).find('.UserInfo').html('这是结果');
+        alert('奖项'+Awards);
     })
 }
