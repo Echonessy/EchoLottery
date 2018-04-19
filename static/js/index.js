@@ -11,10 +11,10 @@ function CreatHtml(data) {
         var ThisData = data[i];
         if(ThisData.IsPrize === true) {
             Html += '<li class="Choice"  data-id="'+ThisData.Id+'"  data-Awards="'+ThisData.Awards+'">';
-            Html += '<img src="static/img/o.png" alt="">';
+            Html += '<img src="../static/img/o.png" alt="">';
         } else {
             Html += '<li class="NoChoice"  data-id="'+ThisData.Id+'"  data-Awards="'+ThisData.Awards+'">';
-            Html += '<img src="static/img/c.png" alt="">';
+            Html += '<img src="../static/img/c.png" alt="">';
         }
         Html += '<div class="UserName">'+ThisData.User+'</div>';
         Html += '<div class="UserInfo">'+ThisData.Msg+'</div>';
@@ -27,7 +27,7 @@ GetList();
 function GetList() {
     $.ajax({
         "type":"get",
-        "url":'static/test/list.json?' ,
+        "url":'../static/test/list.json?' ,
         "dataType":"json",
         success:function(data){
             CreatAjax(data)
@@ -44,7 +44,7 @@ function ChoiceEvt() {
         var Id = $(this).attr('data-id');
         var Awards = $(this).attr('data-Awards');
         $(this).removeClass().addClass('Choice');
-        $(this).find('img').attr('src','static/img/o.png');
+        $(this).find('img').attr('src','../static/img/o.png');
         $(this).find('.UserName').html('me');
         $(this).find('.UserInfo').html('这是结果');
         alert('奖项'+Awards);

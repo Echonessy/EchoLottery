@@ -1,0 +1,44 @@
+@charset "utf-8";
+/*=========================Reset_start==========================*/
+body,h1,h2,h3,h4,h5,h6,div,p,dl,dt,dd,ol,ul,li,form,table,th,td,a,img,span,strong,var,em,input,textarea,select,option{margin: 0; padding: 0;}
+html,body{ font-size: 12px; text-align: left;}
+ul,ol{list-style: none;}
+img{border: 0;}
+input,select,textarea{outline:0;}
+textarea{resize:none;}
+table{border-collapse: collapse; border-spacing: 0;}
+th,strong,var,em{font-weight: normal; font-style: normal;}
+a{text-decoration: none;}
+/*a:link,a:visited,a:hover,a:active{text-decoration:none;} */
+/*==========================Reset_End===========================*/
+html,body{float: left; box-sizing: border-box; position: fixed;left: 0;top: 0; height: 100%;width: 100%;overflow-y: auto; background: url("./../img/bg.jpg")center center no-repeat;background-size: cover;}
+body{padding: 0; float: left;width: 100%;}
+.MainUser{margin-top: 1rem; float: left; width: 100%;position: relative; height: 4rem;box-sizing: border-box;}
+.PhotoBox{width: 2.5rem; overflow: hidden;  height: 2.5rem;margin: 0 auto;background: white; border: 2px solid white;border-radius: 100%;}
+.Photo{width: 100%;}
+.Cap{height: 1.5rem; position: absolute;top: 0;left: 0;right: 0;margin: auto;}
+.Lottery{padding:1.8rem 0.6rem 0.6rem  0.6rem;border-radius:1rem; box-sizing: border-box; float: left;margin-top: 1rem; width: 100%; background: url("./../img/at.png") center center no-repeat;background-size: cover;}
+.Lottery li{ float: left;width: 25%; box-sizing: border-box;}
+.Lottery li img{width: 100%;}
+.NoChoice {animation: rotate 0.4s  infinite; }
+.Main{float: left;width: 100%;padding:0 0.5rem 2rem 0.5rem;box-sizing: border-box;}
+.ImgIco{width: 100%;position: absolute;top: 0;left: 0;z-index: 2}
+@keyframes rotate {
+    0% {  -webkit-transform: rotate(0deg);  transform: rotate(0deg); }
+
+    50% {  -webkit-transform: rotate(-10deg);  transform: rotate(-10deg); }
+
+    100% {  -webkit-transform: rotate(10deg);  transform: rotate(10deg); }
+}
+.Choice {
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    /*-ms-filter: grayscale(100%);*/
+    -o-filter: grayscale(100%);
+    filter:progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);
+    _filter:none;
+}
+.UserName,.UserInfo{float: left;color: white; width: 100%;height: 0.5rem;line-height: 0.5rem; font-size: 0.35rem;text-align:center;}
+
+
+
