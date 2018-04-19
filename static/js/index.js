@@ -68,6 +68,7 @@ function BoxAnimate() {
     },1200);
     $('#CloseBtn').on('click',function(){
         $('#BoxFade').fadeOut(150);
+        $('#ImgBox').attr('src','../static/img/c.png');
         $('.NoChoice').css('animation-play-state','start');
     })
 }
