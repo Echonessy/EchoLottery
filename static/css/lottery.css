@@ -48,5 +48,5 @@ body{padding: 0; float: left;width: 100%;}
 }
 .BoxFade img:nth-child(2){width: 7rem;position: absolute;top: 0;left: 0;right: 0;bottom: 0;margin: auto;}
 .ImgBoxOpen{animation: rotate 0.4s  3;}
-.CloseBtn{position: absolute;width: 1rem;height: 1rem;right: 1rem;top: 1rem;}
+.CloseBtn{position: absolute;width: 1rem;height: 1rem;right: 1rem;top: 5rem;}
 
