@@ -48,5 +48,26 @@ function ChoiceEvt() {
         $(this).find('.UserName').html('me');
         $(this).find('.UserInfo').html('这是结果');
         alert('奖项'+Awards);
+        BoxAnimate();
+    });
+
+}
+function BoxAnimate() {
+    var Time = null;
+    var Time1 = null;
+    $('.NoChoice').css('animation-play-state','paused');
+    if(Time) {clearTimeout(Time)}
+    if(Time1) {clearTimeout(Time1)}
+    $('#BoxFade').fadeIn(200);
+    $('#ImgBox').removeClass().addClass('ImgBoxOpen');
+    Time = setTimeout(function () {
+        $('#ImgBox').fadeOut(10)
+    },1000);
+    Time1 = setTimeout(function () {
+        $('#ImgBox').fadeIn(200).removeClass().attr('src','../static/img/o.png');
+    },1200);
+    $('#CloseBtn').on('click',function(){
+        $('#BoxFade').fadeOut(150);
+        $('.NoChoice').css('animation-play-state','start');
     })
 }
