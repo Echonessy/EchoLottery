@@ -16,7 +16,7 @@ body{padding: 0;float: left;width: 100%;}
 .Box{float: left;width: 100%;height:7rem;text-align: center;position: absolute;top: 0;bottom: 0;left: 0;right: 0;margin: auto;}
 .HaiDao{height: 6rem;}
 .BtnBox{width:4.5rem;margin: 0.8rem auto; height: 1rem;font-size: 0.35rem; line-height: 1rem;color: #333;   box-sizing: border-box;background: url("./../img/btn.png")center center no-repeat;background-size: cover;}
-.BtnBox a{color: #333;}
+.BtnBox a{color: #333;float: left;width: 100%;height: 100%;}
 .Pan{position: absolute;top: 0;left: 0;width: 4rem;}
 .Ship{width: 4rem;position: absolute;bottom: 0;right: -1rem;}
 .Pan {animation: rotate 4s 0s infinite; }
