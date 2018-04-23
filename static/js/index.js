@@ -10,17 +10,21 @@ function CreatHtml(data) {
     for(var i=0;i<data.length;i++) {
         var ThisData = data[i];
         var Type = ThisData.Type;
-        if(Type === '1') {
-            Html += '<li class="Choice "  data-id="'+ThisData.Id+'"  data-Awards="'+ThisData.Awards+'">';
+        if(Type === '2') {
+            Html += '<li class="Choice " data-Award="'+ThisData.Award+'"   data-Type="'+ThisData.Type+'" >';
             Html += '<div class="SmBox Bg2">';
             Html += '<div class="Txt">'+ThisData.AMT+'元</div>';
             Html += '</div>';
-        } else if(Type === '2') {
-            Html += '<li class="Choice"  data-id="'+ThisData.Id+'"  data-Awards="'+ThisData.Awards+'">';
-            Html += '<img src="static/img/list/1.png" alt="">';
+        } else if(Type === '1') {
+            Html += '<li class="Choice" data-Award="'+ThisData.Award+'"  data-Type="'+ThisData.Type+'" >';
+            Html += '<div class="SmBox Bg1">';
+            Html += '<div class="Txt"></div>';
+            Html += '</div>';
         } else {
-            Html += '<li class="NoChoice"  data-id="'+ThisData.Id+'"  data-Awards="'+ThisData.Awards+'">';
-            Html += '<img src="static/img/list/0.png" alt="">';
+            Html += '<li class="NoChoice"  data-Award="'+ThisData.Award+'"   data-Type="'+ThisData.Type+'" >';
+            Html += '<div class="SmBox Bg0">';
+            Html += '<div class="Txt"></div>';
+            Html += '</div>';
         }
         Html += '</li>';
     }
@@ -45,14 +49,12 @@ function CreatAjax(data) {
 }
 function ChoiceEvt() {
     $('.NoChoice').on('click',function () {
-        var Id = $(this).attr('data-id');
-        var Awards = $(this).attr('data-Awards');
-        // alert('奖项'+Awards);
-        BoxAnimate($(this));
+        var Type = $(this).attr('data-Type');
+        BoxAnimate($(this),Type);
     });
 
 }
-function BoxAnimate(Dom) {
+function BoxAnimate(Dom,Type) {
     var Time = null;
     var Time1 = null;
     $('.NoChoice').css('animation-play-state','paused');
@@ -63,17 +65,22 @@ function BoxAnimate(Dom) {
     $('#ImgBox').removeClass().addClass('ImgBoxOpen');
     Time = setTimeout(function () {
         $('#ImgBox').fadeOut(10);
-
     },1300);
     Time1 = setTimeout(function () {
         $('#ImgBox').stop().fadeIn(200).removeClass().attr('src','static/img/o.png');
-        $('#Hah').stop().fadeIn(200);
         Dom.removeClass().addClass('Choice');
-        Dom.find('img').attr('src','static/img/o.png');
-        Dom.find('.UserName').html('me');
-        Dom.find('.UserInfo').html('这是结果');
+        TypeAni(Dom,Type)
     },1400);
-
+}
+function TypeAni(Dom,Type) {
+    var Award = Dom.attr('data-Award');
+    //1 炸弹
+    if(Award === '0') {
+        Dom.find('.SmBox').removeClass().addClass('SmBox Bg2');
+        Dom.find('.Txt').html('0.01');
+    } else if(Award === '1') {
+        Dom.find('.SmBox').removeClass().addClass('SmBox Bg1');
+    }
 }
 $('#CloseBtn').on('click',function(){
     $('#BoxFade').stop().fadeOut(150);

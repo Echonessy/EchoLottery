@@ -4,82 +4,82 @@
     {
       "Type": "1",
       "User": "Echonessy",
-      "AMT": "0.01"
+      "AMT": "0.01","Award": "0"
     },
     {
-      "Type": "3",
+      "Type": "0",
       "User": "Echonessy",
-      "AMT": "0.01"
+      "AMT": "0.01","Award": "0"
     },
     {
-      "Type": "3",
+      "Type": "0",
       "User": "Echonessy",
-      "AMT": "0.01"
+      "AMT": "0.01","Award": "1"
     },
     {
-      "Type": "2",
+      "Type": "1",
       "User": "Echonessy",
-      "AMT": "0.01"
+      "AMT": "0.01","Award": "0"
     },
     {
-      "Type": "3",
+      "Type": "0",
       "User": "Echonessy",
-      "AMT": "0.01"
-    },
-    {
-      "Type": "2",
-      "User": "Echonessy",
-      "AMT": "0.01"
-    },
-    {
-      "Type": "3",
-      "User": "Echonessy",
-      "AMT": "0.01"
-    },
-    {
-      "Type": "3",
-      "User": "Echonessy",
-      "AMT": "0.01"
+      "AMT": "0.01","Award": "1"
     },
     {
       "Type": "2",
       "User": "Echonessy",
-      "AMT": "0.01"
+      "AMT": "0.01","Award": "1"
     },
     {
-      "Type": "3",
+      "Type": "0",
       "User": "Echonessy",
-      "AMT": "0.01"
+      "AMT": "0.01","Award": "0"
     },
     {
-      "Type": "3",
+      "Type": "0",
       "User": "Echonessy",
-      "AMT": "0.01"
+      "AMT": "0.01","Award": "0"
     },
     {
-      "Type": "3",
+      "Type": "1",
       "User": "Echonessy",
-      "AMT": "0.01"
+      "AMT": "0.01","Award": "1"
+    },
+    {
+      "Type": "0",
+      "User": "Echonessy",
+      "AMT": "0.01","Award": "0"
+    },
+    {
+      "Type": "0",
+      "User": "Echonessy",
+      "AMT": "0.01","Award": "1"
     },
     {
       "Type": "2",
       "User": "Echonessy",
-      "AMT": "0.01"
+      "AMT": "0.01","Award": "0"
     },
     {
-      "Type": "3",
+      "Type": "1",
       "User": "Echonessy",
-      "AMT": "0.01"
+      "AMT": "0.01","Award": "1"
     },
     {
-      "Type": "3",
+      "Type": "0",
       "User": "Echonessy",
-      "AMT": "0.01"
+      "AMT": "0.01","Award": "0"
     },
     {
-      "Type": "3",
+      "Type": "0",
       "User": "Echonessy",
-      "AMT": "0.01"
+      "AMT": "0.01","Award": "1"
+    },
+    {
+      "Type": "0",
+      "User": "Echonessy",
+      "AMT": "0.01","Award": "0"
     }
   ],
   "UserName": "Echonessy",
