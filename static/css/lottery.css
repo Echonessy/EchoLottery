@@ -23,7 +23,7 @@ body{padding: 0; float: left;width: 100%;}
 .NoChoice {animation: rotate 0.4s  infinite; }
 .Main{float: left;width: 100%;padding:0 0.5rem 2rem 0.5rem;box-sizing: border-box;}
 .ImgIco{width: 100%;position: absolute;top: 0;left: 0;z-index: 2}
-@keyframes rotate {
+@keyframes Newrotate {
     0% {  -webkit-transform: rotate(0deg);  transform: rotate(0deg); }
 
     50% {  -webkit-transform: rotate(-10deg);  transform: rotate(-10deg); }
@@ -47,6 +47,6 @@ body{padding: 0; float: left;width: 100%;}
     100% {  -webkit-transform: rotate(10deg);  transform: scale(1.2); }
 }
 .BoxFade img:nth-child(2){width: 7rem;position: absolute;top: 0;left: 0;right: 0;bottom: 0;margin: auto;}
-.ImgBoxOpen{animation: rotate 0.4s  3;}
+.ImgBoxOpen{animation: Newrotate 0.5s 8;}
 .CloseBtn{position: absolute;width: 1rem;height: 1rem;right: 1rem;top: 5rem;}
 

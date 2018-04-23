@@ -11,13 +11,22 @@ function CreatHtml(data) {
         var ThisData = data[i];
         if(ThisData.IsPrize === true) {
             Html += '<li class="Choice"  data-id="'+ThisData.Id+'"  data-Awards="'+ThisData.Awards+'">';
-            Html += '<img src="../static/img/o.png" alt="">';
+            Html += '<img src="static/img/o.png" alt="">';
         } else {
             Html += '<li class="NoChoice"  data-id="'+ThisData.Id+'"  data-Awards="'+ThisData.Awards+'">';
-            Html += '<img src="../static/img/c.png" alt="">';
+            Html += '<img src="static/img/c.png" alt="">';
         }
-        Html += '<div class="UserName">'+ThisData.User+'</div>';
-        Html += '<div class="UserInfo">'+ThisData.Msg+'</div>';
+        if(!ThisData.User) {
+            Html += '<div class="UserName FCFC">来呀!</div>';
+        } else {
+            Html += '<div class="UserName FC99">'+(ThisData.User)+'</div>';
+        }
+        if(!ThisData.Msg){
+            Html += '<div class="UserInfo FCFC">开我</div>';
+        } else {
+            Html += '<div class="UserInfo FC99">'+(ThisData.Msg)+'</div>';
+        }
+
         Html += '</li>';
     }
     return Html;
@@ -27,7 +36,7 @@ GetList();
 function GetList() {
     $.ajax({
         "type":"get",
-        "url":'../static/test/list.json?' ,
+        "url":'static/test/list.json?' ,
         "dataType":"json",
         success:function(data){
             CreatAjax(data)
@@ -43,16 +52,12 @@ function ChoiceEvt() {
     $('.NoChoice').on('click',function () {
         var Id = $(this).attr('data-id');
         var Awards = $(this).attr('data-Awards');
-        $(this).removeClass().addClass('Choice');
-        $(this).find('img').attr('src','../static/img/o.png');
-        $(this).find('.UserName').html('me');
-        $(this).find('.UserInfo').html('这是结果');
-        alert('奖项'+Awards);
-        BoxAnimate();
+        // alert('奖项'+Awards);
+        BoxAnimate($(this));
     });
 
 }
-function BoxAnimate() {
+function BoxAnimate(Dom) {
     var Time = null;
     var Time1 = null;
     $('.NoChoice').css('animation-play-state','paused');
@@ -61,14 +66,20 @@ function BoxAnimate() {
     $('#BoxFade').fadeIn(200);
     $('#ImgBox').removeClass().addClass('ImgBoxOpen');
     Time = setTimeout(function () {
-        $('#ImgBox').fadeOut(10)
-    },1000);
+        $('#ImgBox').fadeOut(10);
+
+    },1300);
     Time1 = setTimeout(function () {
-        $('#ImgBox').fadeIn(200).removeClass().attr('src','../static/img/o.png');
-    },1200);
-    $('#CloseBtn').on('click',function(){
-        $('#BoxFade').fadeOut(150);
-        $('#ImgBox').attr('src','../static/img/c.png');
-        $('.NoChoice').css('animation-play-state','start');
-    })
+        $('#ImgBox').stop().fadeIn(200).removeClass().attr('src','static/img/o.png');
+        Dom.removeClass().addClass('Choice');
+        Dom.find('img').attr('src','static/img/o.png');
+        Dom.find('.UserName').html('me');
+        Dom.find('.UserInfo').html('这是结果');
+    },1400);
+
 }
+$('#CloseBtn').on('click',function(){
+    $('#BoxFade').stop().fadeOut(150);
+    $('#ImgBox').attr('src','static/img/c.png');
+    $('.NoChoice').css('animation-play-state','start');
+})
