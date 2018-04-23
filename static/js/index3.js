@@ -9,21 +9,24 @@ function CreatHtml(data) {
     var Html = '';
     for(var i=0;i<data.length;i++) {
         var ThisData = data[i];
-        var Type = ThisData.Type;
-        console.log(Type)
-        if(Type === '1') {
-            Html += '<li class="Choice "  data-id="'+ThisData.Id+'"  data-Awards="'+ThisData.Awards+'">';
-            Html += '<div class="SmBox Bg2">';
-            Html += '<div class="Txt">'+ThisData.AMT+'元</div>';
-            Html += '</div>';
-
-        } else if(Type === '2') {
+        if(ThisData.IsPrize === true) {
             Html += '<li class="Choice"  data-id="'+ThisData.Id+'"  data-Awards="'+ThisData.Awards+'">';
-            Html += '<img src="static/img/list/1.png" alt="">';
+            Html += '<img src="static/img/o.png" alt="">';
         } else {
-            Html += '<li class="Choice"  data-id="'+ThisData.Id+'"  data-Awards="'+ThisData.Awards+'">';
-            Html += '<img src="static/img/list/0.png" alt="">';
+            Html += '<li class="NoChoice"  data-id="'+ThisData.Id+'"  data-Awards="'+ThisData.Awards+'">';
+            Html += '<img src="static/img/c.png" alt="">';
         }
+        if(!ThisData.User) {
+            Html += '<div class="UserName FCFC">来呀!</div>';
+        } else {
+            Html += '<div class="UserName FC99">'+(ThisData.User)+'</div>';
+        }
+        if(!ThisData.Msg){
+            Html += '<div class="UserInfo FCFC">开我</div>';
+        } else {
+            Html += '<div class="UserInfo FC99">'+(ThisData.Msg)+'</div>';
+        }
+
         Html += '</li>';
     }
     return Html;

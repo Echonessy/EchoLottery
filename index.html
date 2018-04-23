@@ -11,166 +11,43 @@
     <script src="static/font/iconfont.js"></script>
 </head>
 <body>
-<div class="Content">
-    <div class="UserBox">
-        <div class="ImgBg">
-            <div class="PhotoBox">
-                <img src="static/img/u.jpg" alt="" class="Photo" id="Photo">
-            </div>
-            <div class="MainName">Echonessy</div>
-            <div class="UserTxt">剩余红包:15</div>
-            <div class="UserTxt">剩余金额:999</div>
+<div class="UserBox">
+    <div class="UserInfo">
+        <div class="MainName">Echonessy发红包啦！！！</div>
+        <div class="UserTxt">剩余红包:15</div>
+        <div class="UserTxt">剩余金额:999</div>
+    </div>
+    <div class="ImgBg">
+        <div class="PhotoBox">
+            <img src="static/img/u.jpg" alt="" class="Photo" id="Photo">
         </div>
     </div>
-    <div class="GoBtnBox">
-        <img src="static/img/btn.png" alt="" class="BtnImg" id="GoBtn">
-    </div>
-    <div class="LotteryListBox">
-        <div class="Title">中奖用户</div>
-        <ul class="LotteryList">
+</div>
+<div class="Content">
+    <div class="Single">
+        <ul class="Lottery" id="Lottery">
             <li>
-                <svg class="icon" aria-hidden="true"><use xlink:href="#icon-boluo"></use></svg>
-                <span>XXX 中中奖奖 0.11元</span>
+                <img src="static/img/c.png" alt="">
+                <div class="UserName">Echonessy</div>
+                <div class="UserInfo">$0.5</div>
             </li>
             <li>
-                <svg class="icon" aria-hidden="true"><use xlink:href="#icon-caomei"></use></svg>
-                <span>XXX 中中奖奖 0.11元</span>
-            </li>
-            <li>
-                <svg class="icon" aria-hidden="true"><use xlink:href="#icon-xigua"></use></svg>
-                <span>XXX 中中奖奖 0.11元</span>
-            </li>
-            <li>
-                <svg class="icon" aria-hidden="true"><use xlink:href="#icon-chengzi"></use></svg>
-                <span>XXX 中中奖奖 0.11元</span>
-            </li>
-            <li>
-                <svg class="icon" aria-hidden="true"><use xlink:href="#icon-xiangjiao"></use></svg>
-                <span>XXX 中中奖奖 0.11元</span>
-            </li>
-            <li>
-                <svg class="icon" aria-hidden="true"><use xlink:href="#icon-taozi"></use></svg>
-                <span>XXX 中中奖奖 0.11元</span>
+                <img src="static/img/o.png" alt="">
+                <div class="UserName">Echonessy</div>
+                <div class="UserInfo">$0.5</div>
             </li>
         </ul>
     </div>
-    <div class="Animate">
-        <div class="loader1">
-            <div class="loader-inner ball-scale-multiple1">
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
-        </div>
-        <div class="loader1">
-            <div class="loader-inner ball-scale-multiple2">
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
-        </div>
-        <div class="loader1">
-            <div class="loader-inner ball-scale-multiple3">
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
-        </div>
-        <div class="loader1">
-            <div class="loader-inner ball-scale-multiple4">
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
-        </div>
-        <div class="loader1">
-            <div class="loader-inner ball-scale-multiple5">
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
-        </div>
-        <div class="loader1">
-            <div class="loader-inner ball-scale-multiple6">
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
-        </div>
-        <div class="loader1">
-            <div class="loader-inner ball-scale-multiple7">
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
-        </div>
-        <div class="loader1">
-            <div class="loader-inner ball-scale-multiple8">
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
-        </div>
-        <div class="loader2">
-            <div class="loader-inner ball-scale-ripple-multiple1">
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
-        </div>
-        <div class="loader2">
-            <div class="loader-inner ball-scale-ripple-multiple2">
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
-        </div>
-        <div class="loader2">
-            <div class="loader-inner ball-scale-ripple-multiple3">
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
-        </div>
-        <div class="loader2">
-            <div class="loader-inner ball-scale-ripple-multiple4">
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
-        </div>
-        <div class="loader2">
-            <div class="loader-inner ball-scale-ripple-multiple5">
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
-        </div>
-    </div>
-    <div class="Test">
-        <a href="index2.html">去看看第二版</a>
-    </div>
+    <a href="record.html" class="Record">抽奖记录</a>
+    <!--<div class="Test">-->
+        <!--<a href="index2.html">去看看第二版</a>-->
+    <!--</div>-->
 </div>
 
 <div class="BoxFade"   style="z-index: 6" id="BoxFade">
     <img src="static/img/close.png" alt="" id="CloseBtn" class="CloseBtn">
     <img src="static/img/c.png" alt="" id="ImgBox">
     <img src="static/img/hah.png" alt="" class="Hah" id="Hah">
-</div>
-<div class="BoxFade" style="z-index: 5" id="GoLottery">
-    <img src="static/img/close.png" alt="" id="CloseLottery" class="CloseLottery">
-    <ul class="Lottery" id="Lottery">
-        <li>
-            <img src="static/img/c.png" alt="">
-            <div class="UserName">Echonessy</div>
-            <div class="UserInfo">$0.5</div>
-        </li>
-        <li>
-            <img src="static/img/o.png" alt="">
-            <div class="UserName">Echonessy</div>
-            <div class="UserInfo">$0.5</div>
-        </li>
-    </ul>
 </div>
 
 <script src="static/js/index.js"></script>

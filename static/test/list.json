@@ -1,116 +1,85 @@
+
 {
   "Lottery": [
     {
-      "Id": "1",
-      "Awards": "一等奖",
-      "User": "",
-      "Msg": "",
-      "IsPrize": false
-    },
-    {
-      "Id": "1",
-      "Awards": "一等奖",
+      "Type": "1",
       "User": "Echonessy",
-      "Msg": "一等奖",
-      "IsPrize": true
+      "AMT": "0.01"
     },
     {
-      "Id": "0",
-      "Awards": "0",
-      "User": "",
-      "Msg": "",
-      "IsPrize": false
+      "Type": "3",
+      "User": "Echonessy",
+      "AMT": "0.01"
     },
     {
-      "Id": "2",
-      "Awards": "2",
-      "User": "",
-      "Msg": "",
-      "IsPrize": false
+      "Type": "3",
+      "User": "Echonessy",
+      "AMT": "0.01"
     },
     {
-      "Id": "3",
-      "Awards": "3",
-      "User": "",
-      "Msg": "",
-      "IsPrize": false
+      "Type": "2",
+      "User": "Echonessy",
+      "AMT": "0.01"
     },
     {
-      "Id": "4",
-      "Awards": "4",
-      "User": "",
-      "Msg": "",
-      "IsPrize": false
+      "Type": "3",
+      "User": "Echonessy",
+      "AMT": "0.01"
     },
     {
-      "Id": "5",
-      "Awards": "5",
-      "User": "",
-      "Msg": "",
-      "IsPrize": false
+      "Type": "2",
+      "User": "Echonessy",
+      "AMT": "0.01"
     },
     {
-      "Id": "1",
-      "Awards": "一等奖",
-      "User": "",
-      "Msg": "",
-      "IsPrize": false
+      "Type": "3",
+      "User": "Echonessy",
+      "AMT": "0.01"
     },
     {
-      "Id": "1",
-      "Awards": "一等奖",
-      "User": "",
-      "Msg": "",
-      "IsPrize": false
+      "Type": "3",
+      "User": "Echonessy",
+      "AMT": "0.01"
     },
     {
-      "Id": "2",
-      "Awards": "2",
-      "User": "",
-      "Msg": "",
-      "IsPrize": false
+      "Type": "2",
+      "User": "Echonessy",
+      "AMT": "0.01"
     },
     {
-      "Id": "2",
-      "Awards": "2",
-      "User": "",
-      "Msg": "",
-      "IsPrize": false
+      "Type": "3",
+      "User": "Echonessy",
+      "AMT": "0.01"
     },
     {
-      "Id": "2",
-      "Awards": "2",
-      "User": "",
-      "Msg": "",
-      "IsPrize": false
+      "Type": "3",
+      "User": "Echonessy",
+      "AMT": "0.01"
     },
     {
-      "Id": "2",
-      "Awards": "2",
-      "User": "",
-      "Msg": "",
-      "IsPrize": false
+      "Type": "3",
+      "User": "Echonessy",
+      "AMT": "0.01"
     },
     {
-      "Id": "2",
-      "Awards": "2",
-      "User": "",
-      "Msg": "",
-      "IsPrize": false
+      "Type": "2",
+      "User": "Echonessy",
+      "AMT": "0.01"
     },
     {
-      "Id": "2",
-      "Awards": "2",
-      "User": "",
-      "Msg": "",
-      "IsPrize": false
+      "Type": "3",
+      "User": "Echonessy",
+      "AMT": "0.01"
     },
     {
-      "Id": "2",
-      "Awards": "2",
-      "User": "",
-      "Msg": "",
-      "IsPrize": false
+      "Type": "3",
+      "User": "Echonessy",
+      "AMT": "0.01"
+    },
+    {
+      "Type": "3",
+      "User": "Echonessy",
+      "AMT": "0.01"
     }
   ],
   "UserName": "Echonessy",
