@@ -71,6 +71,7 @@ function BoxAnimate(Dom) {
     },1300);
     Time1 = setTimeout(function () {
         $('#ImgBox').stop().fadeIn(200).removeClass().attr('src','static/img/o.png');
+        $('#Hah').stop().fadeIn(200);
         Dom.removeClass().addClass('Choice');
         Dom.find('img').attr('src','static/img/o.png');
         Dom.find('.UserName').html('me');
@@ -80,6 +81,7 @@ function BoxAnimate(Dom) {
 }
 $('#CloseBtn').on('click',function(){
     $('#BoxFade').stop().fadeOut(150);
+    $('#Hah').stop().fadeOut(150);
     $('#ImgBox').attr('src','static/img/c.png');
     $('.NoChoice').css('animation-play-state','start');
-})
+});
