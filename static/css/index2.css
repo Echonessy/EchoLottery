@@ -70,8 +70,8 @@ a{text-decoration: none;}
 
 
 
-.Lottery{perspective: 500px;width: 8.8rem;height: 10rem; position: absolute;top: 0;left: 0;right: 0;bottom: 0;margin: auto; padding:0.2rem;border-radius:0.5rem;  float: left;}
-.Lottery li{text-align: center;width: 2rem;height: 2.3rem;margin: 0.1rem; background: rgba(255,255,255,0.8);padding: 0.2rem;border-radius: 0.2rem; box-sizing: border-box; float: left; }
+.Lottery{perspective: 500px;width: 100%;box-sizing: border-box; padding:0.2rem;border-radius:0.5rem;  float: left;}
+.Lottery li{text-align: center;width: 1.95rem;height: 2.3rem;margin: 0.1rem; background: rgba(255,255,255,0.8);padding: 0.2rem;border-radius: 0.2rem; box-sizing: border-box; float: left; }
 .Lottery li img{width: 1.2rem;height: 1rem;}
 .Lottery li div{height: 0.4rem;text-align: center; width: 100%;font-size: 0.3rem;color: #333;line-height: 0.4rem;}
 @keyframes Newturn {
@@ -86,5 +86,3 @@ a{text-decoration: none;}
 }
 .Lottery li{-webkit-animation:Newturn 10s 8 linear;animation:Newturn 10s 8 linear; }
 
-.Test{float: left;margin-top: 1rem; text-align: center; width: 100%;height: 1.5rem;}
-.Test a{display: block;margin: 0 auto; width: 5rem;height: 1rem;line-height: 1rem;text-align: center;font-size: 0.4rem;background:rgba(13,201,148,0.8) ;color: white;border-radius: 0.3rem;}
