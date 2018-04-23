@@ -10,18 +10,16 @@ function CreatHtml(data) {
     for(var i=0;i<data.length;i++) {
         var ThisData = data[i];
         var Type = ThisData.Type;
-        console.log(Type)
         if(Type === '1') {
             Html += '<li class="Choice "  data-id="'+ThisData.Id+'"  data-Awards="'+ThisData.Awards+'">';
             Html += '<div class="SmBox Bg2">';
             Html += '<div class="Txt">'+ThisData.AMT+'元</div>';
             Html += '</div>';
-
         } else if(Type === '2') {
             Html += '<li class="Choice"  data-id="'+ThisData.Id+'"  data-Awards="'+ThisData.Awards+'">';
             Html += '<img src="static/img/list/1.png" alt="">';
         } else {
-            Html += '<li class="Choice"  data-id="'+ThisData.Id+'"  data-Awards="'+ThisData.Awards+'">';
+            Html += '<li class="NoChoice"  data-id="'+ThisData.Id+'"  data-Awards="'+ThisData.Awards+'">';
             Html += '<img src="static/img/list/0.png" alt="">';
         }
         Html += '</li>';
