@@ -15,6 +15,7 @@ a{text-decoration: none;}
 .FC99{color: #999!important;}
 .FCFC{color: #FC716E!important;}
 
+
 /*==========================Reset_End===========================*/
 body,html{}
 .BoxFade,.MainFade{ display: none; position: fixed;z-index: 2;left: 0;top: 0;width: 100%;height: 100%;background: rgba(0,0,0,0.7);}
@@ -30,6 +31,9 @@ body,html{}
 .CloseBtn,.CloseLottery{position: absolute;z-index: 5; width: 1rem;height: 1rem;right: 1rem;top: 5rem;}
 .CloseLottery{top: 1rem;}
 .Bg0{background: url("../img/list/0.png")center center no-repeat!important;background-size: 100%!important;}
+.Bghb{background: url("../img/list/hb.png")center center no-repeat!important;background-size: 100%!important;}
+.Bgdk{background: url("../img/list/dk.png")center center no-repeat!important;background-size: 100%!important;}
+
 .Bg1{background: url("../img/list/1.png")center center no-repeat!important;background-size: 100%!important;}
 .Bg2{background: url("../img/list/2.png")center center no-repeat!important;background-size: 100%!important;}
 .Lottery{position: absolute;top: 0;bottom: 0;left: 0;right: 0; margin:  auto; perspective: 500px;box-sizing: border-box;; width: 9rem;height: 9rem;;border-radius:0.1rem;overflow: hidden; }
@@ -67,3 +71,17 @@ body,html{}
 .AmtTit,.Amt{float: left;width: 100%;text-align: center;}
 .AmtTit{font-size: 0.3rem;color: #ccc;}
 .Amt{font-size: 0.45rem;color: white;font-weight: bold;}
+
+
+@keyframes AmtAnimi {
+    0% { transform: rotateY(0deg) scale(0.1);   }
+    20% {  transform: rotateY(90deg)scale(0.2);}
+    40% {  transform: rotateY(180deg)scale(0.4);  }
+    60% {  transform: rotateY(270deg)scale(0.6);  }
+    80% {  transform: rotateY(360deg)scale(0.8);  }
+    100% { transform:rotateY(450deg) scale(1);}
+}
+.AnimateAmt{z-index: 2; position: absolute;left: 0;top: 0;right: 0;bottom: 0;margin: auto;width: 6rem;}
+.AnimateAmtBg{display: none; z-index: 1; position: absolute;;width: 100%;;top: 0;left: 0;}
+.AnimateAmtOpen{animation: AmtAnimi 0.6s  1;}
+.Dino{display: none;}

@@ -12,17 +12,17 @@ function CreatHtml(data) {
         var Type = ThisData.Type;
         if(Type === '2') {
             Html += '<li class="Choice " data-Award="'+ThisData.Award+'"   data-Type="'+ThisData.Type+'" >';
-            Html += '<div class="SmBox Bg2">';
-            Html += '<div class="Txt">'+ThisData.AMT+'元</div>';
+            Html += '<div class="SmBox Bgdk">';
+            Html += '<div class="Txt"></div>';
             Html += '</div>';
         } else if(Type === '1') {
             Html += '<li class="Choice" data-Award="'+ThisData.Award+'"  data-Type="'+ThisData.Type+'" >';
-            Html += '<div class="SmBox Bg1">';
+            Html += '<div class="SmBox Bgdk">';
             Html += '<div class="Txt"></div>';
             Html += '</div>';
         } else {
             Html += '<li class="NoChoice"  data-Award="'+ThisData.Award+'"   data-Type="'+ThisData.Type+'" >';
-            Html += '<div class="SmBox Bg0">';
+            Html += '<div class="SmBox Bghb">';
             Html += '<div class="Txt"></div>';
             Html += '</div>';
         }
@@ -52,25 +52,26 @@ function ChoiceEvt() {
         var Type = $(this).attr('data-Type');
         BoxAnimate($(this),Type);
     });
-
 }
+
+
+
 function BoxAnimate(Dom,Type) {
     var Time = null;
     var Time1 = null;
-    $('.NoChoice').css('animation-play-state','paused');
-    $('.Choice').css('animation-play-state','paused');
     if(Time) {clearTimeout(Time)}
     if(Time1) {clearTimeout(Time1)}
-    $('#BoxFade').fadeIn(200);
-    $('#ImgBox').removeClass().addClass('ImgBoxOpen');
+    $('#Animate').stop().fadeIn(200);
+    $('#AnimateAmt').removeClass('AnimateAmtOpen').addClass('AnimateAmtOpen');
     Time = setTimeout(function () {
-        $('#ImgBox').fadeOut(10);
-    },1300);
+        $('#AnimateAmt').stop().fadeOut(10);
+    },950);
     Time1 = setTimeout(function () {
-        $('#ImgBox').stop().fadeIn(200).removeClass().attr('src','static/img/o.png');
+        $('#AnimateAmt').stop().fadeIn(200).removeClass('AnimateAmtOpen').attr('src','static/img/list/dk.png');
+        $('#AnimateAmtBg').stop().fadeIn(100);
         Dom.removeClass().addClass('Choice');
         TypeAni(Dom,Type)
-    },1400);
+    },1000);
 }
 function TypeAni(Dom,Type) {
     var Award = Dom.attr('data-Award');
@@ -83,11 +84,9 @@ function TypeAni(Dom,Type) {
     }
 }
 $('#CloseBtn').on('click',function(){
-    $('#BoxFade').stop().fadeOut(150);
-    $('#Hah').stop().fadeOut(150);
-    $('#ImgBox').attr('src','static/img/c.png');
-    $('.NoChoice').css('animation-play-state','running');
-    $('.Choice').css('animation-play-state','running');
+    $('#Animate').stop().fadeOut(150);
+    $('#AnimateAmt').attr('src','static/img/list/hb.png');
+    $('#AnimateAmtBg').stop().fadeOut(100);
 });
 $('#GoBtn').on('click',function(){
     $('#GoLottery').stop().fadeIn(150);
