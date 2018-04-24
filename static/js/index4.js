@@ -95,6 +95,3 @@ $('#GoBtn').on('click',function(){
 $('#CloseLottery').on('click',function(){
     $('#GoLottery').stop().fadeOut(150);
 });
-$('#CloseFade').on('click',function(){
-    $('#MainFade').stop().fadeOut(150);
-});
