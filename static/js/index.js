@@ -53,7 +53,7 @@ function ChoiceEvt() {
 }
 //红包1
 function RedPacket(Dom,Type) {
-    $('#AnimateImg').fadeIn(150).attr('src','static/img/animate/1.gif');
+    $('#AnimateImg').fadeIn(50).attr('src','static/img/animate/1.gif');
 }
 function RedPacketEnd(Dom,Type) {
     var Award = Dom.attr('data-Award');
@@ -63,7 +63,7 @@ function RedPacketEnd(Dom,Type) {
 //2节操碎一地
 function Moral(Dom,Type) {
     var Award = Dom.attr('data-Award');
-    $('#AnimateImg').fadeIn(150).attr('src','static/img/animate/2.gif');
+    $('#AnimateImg').fadeIn(50).attr('src','static/img/animate/2.gif');
 }
 function MoralEnd(Dom,Type) {
     Dom.find('.SmBox').removeClass().addClass('SmBox SmBoxBg2');
@@ -71,7 +71,7 @@ function MoralEnd(Dom,Type) {
 //3屁都没有
 function Fart(Dom,Type) {
     var Award = Dom.attr('data-Award');
-    $('#AnimateImg').fadeIn(150).attr('src','static/img/animate/3.gif');
+    $('#AnimateImg').fadeIn(50).attr('src','static/img/animate/3.gif');
 }
 function FartEnd(Dom,Type) {
     Dom.find('.SmBox').removeClass().addClass('SmBox SmBoxBg3');
@@ -79,7 +79,7 @@ function FartEnd(Dom,Type) {
 //4日了狗了
 function Dog(Dom,Type) {
     var Award = Dom.attr('data-Award');
-    $('#AnimateImg').fadeIn(150).attr('src','static/img/animate/4.gif');
+    $('#AnimateImg').fadeIn(50).attr('src','static/img/animate/4.gif');
 }
 function DogEnd(Dom,Type) {
     Dom.find('.SmBox').removeClass().addClass('SmBox SmBoxBg4');
@@ -87,7 +87,7 @@ function DogEnd(Dom,Type) {
 //5日了狗了
 function Devil(Dom,Type) {
     var Award = Dom.attr('data-Award');
-    $('#AnimateImg').fadeIn(150).attr('src','static/img/animate/5.gif');
+    $('#AnimateImg').fadeIn(50).attr('src','static/img/animate/5.gif');
     Dom.find('.SmBox').removeClass().addClass('SmBox SmBoxBg5');
 }
 function DevilEnd(Dom,Type) {
@@ -96,7 +96,7 @@ function DevilEnd(Dom,Type) {
 }
 //6炸弹
 function Bomb(Dom,Type) {
-    $('#AnimateImg').fadeIn(150).attr('src','static/img/animate/6.gif');
+    $('#AnimateImg').fadeIn(50).attr('src','static/img/animate/6.gif');
 }
 function BombEnd(Dom,Type) {
     var Award = Dom.attr('data-Award');
@@ -107,7 +107,7 @@ function BoxAnimate(Dom,Type) {
     var Time = null,Time1 = null;
     if(Time) {window.clearTimeout(Time)}
     if(Time1) {window.clearTimeout(Time1)}
-    $('#Animate').stop().fadeIn(200);
+    $('#Animate').stop().fadeIn(150);
     $('#DontTouch').css('display','block');
     $('#AnimateAmt').removeClass('AnimateAmtOpen').addClass('AnimateAmtOpen').stop().fadeIn(10);
     Time = setTimeout(function () {
