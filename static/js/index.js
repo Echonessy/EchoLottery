@@ -108,6 +108,7 @@ function BoxAnimate(Dom,Type) {
     if(Time) {window.clearTimeout(Time)}
     if(Time1) {window.clearTimeout(Time1)}
     $('#Animate').stop().fadeIn(200);
+    $('#DontTouch').css('display','block');
     $('#AnimateAmt').removeClass('AnimateAmtOpen').addClass('AnimateAmtOpen').stop().fadeIn(10);
     Time = setTimeout(function () {
         $('#AnimateAmt').stop().fadeOut(10).removeClass('AnimateAmtOpen');
@@ -118,6 +119,7 @@ function BoxAnimate(Dom,Type) {
         $('#Animate').stop().fadeOut(150);
         $('#AnimateAmt').attr('src','static/img/list/hb.png');
         $('#AnimateImg').stop().fadeOut(100).attr('src','');
+        $('#DontTouch').css('display','none');
         AnimateResult(Dom,Type)
     },5800);
 }
