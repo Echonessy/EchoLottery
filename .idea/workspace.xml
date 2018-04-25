@@ -2,12 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d56b6f1e-3d7f-4f4e-8c65-b793851b20bf" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/animate/1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/animate/1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/animate/2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/animate/2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/animate/3.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/animate/3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/animate/4.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/animate/4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/animate/5.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/animate/5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/animate/6.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/animate/6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/animate/7.png" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/kl.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/list/dk.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/list/hb.png" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/mz.png" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index4.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/index4.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/test/test.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/img/list/dk.png" afterPath="$PROJECT_DIR$/static/img/list/dk.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/index.css" afterPath="$PROJECT_DIR$/static/css/index.css" />
@@ -30,44 +43,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="46" column="22" lean-forward="false" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/js/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="63" column="24" lean-forward="false" selection-start-line="63" selection-start-column="24" selection-end-line="63" selection-end-column="24" />
-              <folding>
-                <element signature="n#!!block;n#CreatHtml#0" expanded="false" />
-                <element signature="n#!!block;n#GetList#0" expanded="false" />
-                <element signature="n#!!block;n#CreatAjax#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index4.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index4.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="47" column="74" lean-forward="true" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="74" />
-              <folding>
-                <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="record.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/record.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="6" column="47" lean-forward="false" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
+            <state relative-caret-position="384">
+              <caret line="48" column="49" lean-forward="false" selection-start-line="48" selection-start-column="49" selection-end-line="48" selection-end-column="49" />
               <folding>
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
@@ -75,22 +52,52 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="record.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/css/record.css">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/static/js/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="21" column="10" lean-forward="false" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+            <state relative-caret-position="588">
+              <caret line="124" column="8" lean-forward="false" selection-start-line="124" selection-start-column="8" selection-end-line="124" selection-end-column="8" />
+              <folding>
+                <element signature="n#!!block;n#CreatAjax#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/css/index.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/static/css/index.css">
+      <file leaf-file-name="test.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/test/test.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="433">
-              <caret line="86" column="21" lean-forward="false" selection-start-line="86" selection-start-column="21" selection-end-line="86" selection-end-column="21" />
-              <folding />
+            <state relative-caret-position="477">
+              <caret line="87" column="5" lean-forward="false" selection-start-line="87" selection-start-column="5" selection-end-line="87" selection-end-column="5" />
+              <folding>
+                <element signature="e#22#108#0" expanded="false" />
+                <element signature="e#114#200#0" expanded="false" />
+                <element signature="e#206#292#0" expanded="false" />
+                <element signature="e#298#384#0" expanded="false" />
+                <element signature="e#390#476#0" expanded="false" />
+                <element signature="e#482#568#0" expanded="false" />
+                <element signature="e#574#660#0" expanded="false" />
+                <element signature="e#666#752#0" expanded="false" />
+                <element signature="e#758#844#0" expanded="false" />
+                <element signature="e#850#936#0" expanded="false" />
+                <element signature="e#942#1028#0" expanded="false" />
+                <element signature="e#1034#1120#0" expanded="false" />
+                <element signature="e#1126#1212#0" expanded="false" />
+                <element signature="e#1218#1304#0" expanded="false" />
+                <element signature="e#1310#1396#0" expanded="false" />
+                <element signature="e#1402#1488#0" expanded="false" />
+                <element signature="e#1494#1580#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -115,8 +122,10 @@
       <find>&quot;AMT&quot;: &quot;0.01&quot;,&quot;Award&quot;: &quot;0&quot;,</find>
       <find>Lottery</find>
       <find>Newrotate</find>
-      <find>Open</find>
       <find>CloseFade</find>
+      <find>Open</find>
+      <find>0</find>
+      <find>Bg0</find>
     </findStrings>
     <replaceStrings>
       <replace>1</replace>
@@ -142,9 +151,10 @@
         <option value="$PROJECT_DIR$/index4.html" />
         <option value="$PROJECT_DIR$/static/css/record.css" />
         <option value="$PROJECT_DIR$/static/css/index4.css" />
-        <option value="$PROJECT_DIR$/static/js/index.js" />
+        <option value="$PROJECT_DIR$/static/test/test.json" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/static/css/index.css" />
+        <option value="$PROJECT_DIR$/static/js/index.js" />
       </list>
     </option>
   </component>
@@ -159,6 +169,9 @@
     <option name="y" value="-8" />
     <option name="width" value="1456" />
     <option name="height" value="876" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -200,6 +213,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -275,6 +292,42 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="animate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EchoLottery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EchoLottery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EchoLottery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EchoLottery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -307,11 +360,11 @@
       <recent name="H:\代码\Github\EchoLottery\static\img\list" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\代码\Github\EchoLottery\static\img\animate" />
       <recent name="H:\代码\Github\EchoLottery\static\img\list" />
+      <recent name="H:\代码\Github\EchoLottery\static\test" />
       <recent name="H:\代码\Github\EchoLottery\static\img" />
       <recent name="H:\代码\Github\EchoLottery\static\js" />
-      <recent name="H:\代码\Github\EchoLottery\static\css" />
-      <recent name="H:\代码\Github\EchoLottery" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -398,15 +451,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1524465990555</updated>
-      <workItem from="1524465992229" duration="29270000" />
+      <workItem from="1524465992229" duration="35003000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29270000" />
+    <option name="totallyTimeSpent" value="35003000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="876" extended-state="0" />
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2496474" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -575,36 +628,77 @@
         <state relative-caret-position="246">
           <caret line="47" column="74" lean-forward="true" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="74" />
           <folding>
-            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/index.js">
+    <entry file="file://$PROJECT_DIR$/static/img/list/1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/img/animate/6.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/test/test.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="63" column="24" lean-forward="false" selection-start-line="63" selection-start-column="24" selection-end-line="63" selection-end-column="24" />
+        <state relative-caret-position="477">
+          <caret line="87" column="5" lean-forward="false" selection-start-line="87" selection-start-column="5" selection-end-line="87" selection-end-column="5" />
           <folding>
-            <element signature="n#!!block;n#CreatHtml#0" expanded="false" />
-            <element signature="n#!!block;n#GetList#0" expanded="false" />
-            <element signature="n#!!block;n#CreatAjax#0" expanded="false" />
+            <element signature="e#22#108#0" expanded="false" />
+            <element signature="e#114#200#0" expanded="false" />
+            <element signature="e#206#292#0" expanded="false" />
+            <element signature="e#298#384#0" expanded="false" />
+            <element signature="e#390#476#0" expanded="false" />
+            <element signature="e#482#568#0" expanded="false" />
+            <element signature="e#574#660#0" expanded="false" />
+            <element signature="e#666#752#0" expanded="false" />
+            <element signature="e#758#844#0" expanded="false" />
+            <element signature="e#850#936#0" expanded="false" />
+            <element signature="e#942#1028#0" expanded="false" />
+            <element signature="e#1034#1120#0" expanded="false" />
+            <element signature="e#1126#1212#0" expanded="false" />
+            <element signature="e#1218#1304#0" expanded="false" />
+            <element signature="e#1310#1396#0" expanded="false" />
+            <element signature="e#1402#1488#0" expanded="false" />
+            <element signature="e#1494#1580#0" expanded="false" />
           </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/img/animate/1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="46" column="22" lean-forward="false" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="22" />
-          <folding />
+        <state relative-caret-position="384">
+          <caret line="48" column="49" lean-forward="false" selection-start-line="48" selection-start-column="49" selection-end-line="48" selection-end-column="49" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="86" column="21" lean-forward="false" selection-start-line="86" selection-start-column="21" selection-end-line="86" selection-end-column="21" />
+        <state relative-caret-position="126">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="124" column="8" lean-forward="false" selection-start-line="124" selection-start-column="8" selection-end-line="124" selection-end-column="8" />
+          <folding>
+            <element signature="n#!!block;n#CreatAjax#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
