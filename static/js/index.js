@@ -104,20 +104,17 @@ function BombEnd(Dom,Type) {
 }
 
 function BoxAnimate(Dom,Type) {
-    var Time = null,Time2 = null,Time1 = null;
+    var Time = null,Time1 = null;
     if(Time) {window.clearTimeout(Time)}
     if(Time1) {window.clearTimeout(Time1)}
-    if(Time2) {window.clearTimeout(Time2)}
     $('#Animate').stop().fadeIn(200);
-    $('#AnimateAmt').removeClass('AnimateAmtOpen').addClass('AnimateAmtOpen');
+    $('#AnimateAmt').removeClass('AnimateAmtOpen').addClass('AnimateAmtOpen').stop().fadeIn(10);
     Time = setTimeout(function () {
-        $('#AnimateAmt').stop().fadeOut(150).removeClass('AnimateAmtOpen');
-    },950);
-    Time1 = setTimeout(function () {
+        $('#AnimateAmt').stop().fadeOut(10).removeClass('AnimateAmtOpen');
         Dom.removeClass().addClass('Choice');
         AnimateType(Dom,Type)
-    },1000);
-    Time2 = setTimeout(function () {
+    },950);
+    Time1 = setTimeout(function () {
         $('#Animate').stop().fadeOut(150);
         $('#AnimateAmt').attr('src','static/img/list/hb.png');
         $('#AnimateImg').stop().fadeOut(100).attr('src','');
