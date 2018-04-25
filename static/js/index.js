@@ -84,11 +84,10 @@ function Dog(Dom,Type) {
 function DogEnd(Dom,Type) {
     Dom.find('.SmBox').removeClass().addClass('SmBox SmBoxBg4');
 }
-//5日了狗了
+//5恶魔说
 function Devil(Dom,Type) {
     var Award = Dom.attr('data-Award');
     $('#AnimateImg').fadeIn(50).attr('src','static/img/animate/5.gif');
-    Dom.find('.SmBox').removeClass().addClass('SmBox SmBoxBg5');
 }
 function DevilEnd(Dom,Type) {
     var Award = Dom.attr('data-Award');
