@@ -32,12 +32,15 @@ body,html{}
 .CloseBtn{top: 2rem;}
 .Bg0{background: url("../img/list/0.png")center center no-repeat!important;background-size: 100%!important;}
 .Bghb{background: url("../img/list/hb.png")center center no-repeat!important;background-size: 100%!important;}
+.Bghb{background: url("../img/u.jpg")center center no-repeat!important;background-size: 100%!important;}
+.Bghb{background: url("../img/animate/1.png")center center no-repeat!important;background-size: 100%!important;}
+.Bghb{background: none!important;background-size: 100%!important;}
 .Bgdk{background: url("../img/list/dk.png")center center no-repeat!important;background-size: 100%!important;}
 
 .Bg1{background: url("../img/list/1.png")center center no-repeat!important;background-size: 100%!important;}
 .Bg2{background: url("../img/list/2.png")center center no-repeat!important;background-size: 100%!important;}
 .Lottery{position: absolute;top: 0;bottom: 0;left: 0;right: 0; margin:  auto; perspective: 500px;box-sizing: border-box;; width: 9rem;height: 9rem;;border-radius:0.1rem;overflow: hidden; }
-.Lottery li{perspective: 500px; position: relative;background: white; text-align: center; box-sizing: border-box;width: 2.04rem;height: 2.04rem;margin: 0.1rem; padding: 0.2rem; float: left; }
+.Lottery li{perspective: 500px; position: relative;background: #FFD09C; text-align: center; box-sizing: border-box;width: 1.6rem;height: 1.6rem;margin: 0.1rem; float: left; }
 .Lottery li img{width: 80%;position: absolute;top: 0;left: 0;right: 0;bottom: 0;margin: auto;}
 .Lottery li:hover .SmBox{transform: scale(0.9);}
 
@@ -96,4 +99,4 @@ body,html{}
 .SmBoxBg4{background: url("../img/animate/4.png")center center no-repeat!important;background-size: 100%!important;}
 .SmBoxBg5{background: url("../img/animate/5.png")center center no-repeat!important;background-size: 100%!important;}
 .SmBoxBg6{background: url("../img/animate/6.png")center center no-repeat!important;background-size: 100%!important;}
-.SmBoxBg7{background: url("../img/animate/7.png")center center no-repeat!important;background-size: 100%!important;}
+.SmBoxBg7{background: url("../img/animate/1.png")center center no-repeat!important;background-size: 100%!important;}
